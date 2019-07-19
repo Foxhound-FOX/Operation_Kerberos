@@ -152,8 +152,8 @@ class GVAR(unitlists) {
             cas_helicopter_types[] = {"rhs_mi28n_vvsc"};
 
             ai = 1;
-            ai_types[] = {"RHS_T50_vvs_054","RHS_T50_vvs_053","RHS_T50_vvs_052"};
-            //ai_types[] = {"O_Plane_Fighter_02_Stealth_F"};
+            // T50 very buggy // ai_types[] = {"RHS_T50_vvs_054","RHS_T50_vvs_053","RHS_T50_vvs_052"};
+            ai_types[] = {"O_Plane_Fighter_02_Stealth_F"}; // vanilla until fixed
 
             group_infantry[] = {
                 {"configfile","CfgGroups","East","rhs_faction_vdv","rhs_group_rus_vdv_infantry","rhs_group_rus_vdv_infantry_fireteam"},
