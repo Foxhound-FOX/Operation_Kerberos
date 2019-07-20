@@ -211,7 +211,7 @@ class prototype : device {
         tasktype = "Default";
     };
 };
-/*
+
 class jammer : device {
     condition = "";
     probability = PROPABILITY_LAND;
@@ -252,7 +252,7 @@ class radiotower : jammer {
         tasktype = "destroy";
     };
 };
-*/
+
 class scarab : device {
     probability = PROPABILITY_LAND;
     taskcondition = QUOTE(isClass(configFile>>'CfgPatches'>>'rhs_main'));
