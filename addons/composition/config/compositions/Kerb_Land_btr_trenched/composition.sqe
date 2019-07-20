@@ -1,8 +1,8 @@
 version=53;
-center[]={6443.2744,5.0000024,725.30566};
+center[]={1949.5588,5,6044.6431};
 class items
 {
-	items=5;
+	items=18;
 	class Item0
 	{
 		dataType="Group";
@@ -15,32 +15,30 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.03125,0.0014390945,2.0407104};
+					position[]={-0.22485352,0.0014390945,6.1503906};
 				};
 				side="East";
 				flags=4;
 				class Attributes
 				{
 				};
-				id=918;
+				id=33;
 				type="rhs_msv_armoredcrew";
-				atlOffset=2.3841858e-006;
 			};
 			class Item1
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.03125,0.0014390945,2.0407104};
+					position[]={-0.22485352,0.0014390945,6.1503906};
 				};
 				side="East";
 				flags=6;
 				class Attributes
 				{
 				};
-				id=919;
+				id=34;
 				type="rhs_msv_armoredcrew";
-				atlOffset=2.3841858e-006;
 			};
 		};
 		class Attributes
@@ -59,8 +57,8 @@ class items
 				class Item0
 				{
 					linkID=0;
-					item0=918;
-					item1=920;
+					item0=33;
+					item1=35;
 					class CustomData
 					{
 						role=1;
@@ -69,8 +67,8 @@ class items
 				class Item1
 				{
 					linkID=1;
-					item0=919;
-					item1=920;
+					item0=34;
+					item1=35;
 					class CustomData
 					{
 						role=2;
@@ -79,24 +77,22 @@ class items
 				};
 			};
 		};
-		id=917;
-		atlOffset=2.3841858e-006;
+		id=32;
 	};
 	class Item1
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={0.03125,1.6475663,1.9907227};
+			position[]={-0.22485352,1.6475663,6.1005859};
 		};
 		side="East";
 		flags=6;
 		class Attributes
 		{
 		};
-		id=920;
+		id=35;
 		type="rhs_btr80a_msv";
-		atlOffset=2.3841858e-006;
 		class CustomAttributes
 		{
 			class Attribute0
@@ -468,7 +464,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-6.6494141,0.90256071,2.0234375};
+			position[]={-8.8083496,0.90256071,7.1850586};
 		};
 		side="Empty";
 		flags=5;
@@ -476,9 +472,8 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=921;
+		id=36;
 		type="Land_Rampart_F";
-		atlOffset=2.3841858e-006;
 		class CustomAttributes
 		{
 			class Attribute0
@@ -546,7 +541,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={6.5664063,0.90256071,1.8320313};
+			position[]={8.3840332,0.90256071,6.6796875};
 		};
 		side="Empty";
 		flags=5;
@@ -554,9 +549,8 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=922;
+		id=37;
 		type="Land_Rampart_F";
-		atlOffset=2.3841858e-006;
 		class CustomAttributes
 		{
 			class Attribute0
@@ -624,7 +618,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={0.018066406,0.90256071,-7.8369141};
+			position[]={-0.054443359,0.90256071,-4.9614258};
 			angles[]={0,4.7595911,0};
 		};
 		side="Empty";
@@ -633,9 +627,8 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=923;
+		id=38;
 		type="Land_Rampart_F";
-		atlOffset=2.3841858e-006;
 		class CustomAttributes
 		{
 			class Attribute0
@@ -696,6 +689,578 @@ class items
 				};
 			};
 			nAttributes=3;
+		};
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-8.8203125,0.90256071,-3.1738281};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=39;
+		type="Land_Rampart_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="hideObject";
+				expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			nAttributes=3;
+		};
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={8.9393311,0.90256071,-3.5444336};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			disableSimulation=1;
+		};
+		id=40;
+		type="Land_Rampart_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="allowDamage";
+				expression="_this allowdamage _value;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="hideObject";
+				expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			nAttributes=3;
+		};
+	};
+	class Item7
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-14.16687,0,11.041992};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=41;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item8
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-14.227661,0,6.394043};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=43;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item9
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-14.064209,0,-7.2529297};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=44;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item10
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-14.288574,0,1.1132813};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=45;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item11
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-8.6887207,0,-9.840332};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=46;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item12
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={9.4035645,0,-10.248535};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=47;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item13
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.55322266,0,-10.516602};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=48;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item14
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={14.023071,0,-7.8613281};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=49;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item15
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={14.15625,0,-1.4365234};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=50;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item16
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={14.075928,0,4.3808594};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=51;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item17
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={14.039795,0,9.8447266};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=52;
+		type="APERSMine";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="Enh_featureType";
+				expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="0";
+					};
+				};
+			};
+			nAttributes=1;
 		};
 	};
 };

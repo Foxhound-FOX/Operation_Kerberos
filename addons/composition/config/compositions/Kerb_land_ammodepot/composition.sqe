@@ -1,5 +1,5 @@
 version=53;
-center[]={6439.791,5,717.90979};
+center[]={1797.6592,5,5473.7432};
 class items
 {
 	items=26;
@@ -8,7 +8,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={0.09765625,0.78723717,-8.6853638};
+			position[]={0.14624023,0.78723717,-8.6254883};
 		};
 		side="Empty";
 		flags=5;
@@ -16,7 +16,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=831;
+		id=966;
 		type="Land_Mil_WallBig_Gate_F";
 		class CustomAttributes
 		{
@@ -66,7 +66,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-5.9150391,1.6998744,-9.5579224};
+			position[]={-5.8664551,1.6998744,-9.4980469};
 		};
 		side="Empty";
 		flags=5;
@@ -74,7 +74,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=832;
+		id=967;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -124,7 +124,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-8.6489258,1.7002764,-9.3530884};
+			position[]={-8.6003418,1.7002764,-9.2929688};
 		};
 		side="Empty";
 		flags=5;
@@ -132,7 +132,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=833;
+		id=968;
 		type="Land_Mil_WallBig_Corner_F";
 		class CustomAttributes
 		{
@@ -182,7 +182,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-8.8647461,1.6998744,-6.6265259};
+			position[]={-8.8161621,1.6998744,-6.5664063};
 			angles[]={0,1.5629295,0};
 		};
 		side="Empty";
@@ -191,7 +191,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=834;
+		id=969;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -241,7 +241,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-8.8842773,1.6998744,-2.5830688};
+			position[]={-8.8356934,1.6998744,-2.5229492};
 			angles[]={0,1.5629295,0};
 		};
 		side="Empty";
@@ -250,7 +250,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=835;
+		id=970;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -300,7 +300,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-8.8950195,1.6998744,1.482605};
+			position[]={-8.8464355,1.6998744,1.5424805};
 			angles[]={0,1.5629295,0};
 		};
 		side="Empty";
@@ -309,7 +309,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=836;
+		id=971;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -359,7 +359,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-8.9145508,1.6998744,5.526062};
+			position[]={-8.8659668,1.6998744,5.5859375};
 			angles[]={0,1.5629295,0};
 		};
 		side="Empty";
@@ -368,7 +368,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=837;
+		id=972;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -418,7 +418,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={9.0576172,1.6998744,-2.25177};
+			position[]={9.1062012,1.6998744,-2.1918945};
 			angles[]={0,4.7115769,0};
 		};
 		side="Empty";
@@ -427,7 +427,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=838;
+		id=973;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -477,7 +477,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={9.065918,1.6998744,-6.2754517};
+			position[]={9.114502,1.6998744,-6.215332};
 			angles[]={0,4.7115769,0};
 		};
 		side="Empty";
@@ -486,7 +486,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=839;
+		id=974;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -536,7 +536,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={6.1308594,1.6998744,-9.4480591};
+			position[]={6.1794434,1.6998744,-9.3881836};
 		};
 		side="Empty";
 		flags=5;
@@ -544,7 +544,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=840;
+		id=975;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -594,7 +594,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={8.9248047,1.7002764,-9.1130981};
+			position[]={8.9733887,1.7002764,-9.0532227};
 			angles[]={0,4.6751404,0};
 		};
 		side="Empty";
@@ -603,7 +603,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=841;
+		id=976;
 		type="Land_Mil_WallBig_Corner_F";
 		class CustomAttributes
 		{
@@ -653,7 +653,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={9.0800781,1.6998744,5.8239136};
+			position[]={9.1286621,1.6998744,5.8837891};
 			angles[]={0,4.7115769,0};
 		};
 		side="Empty";
@@ -662,7 +662,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=842;
+		id=977;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -712,7 +712,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={9.0883789,1.6998744,1.8002319};
+			position[]={9.1369629,1.6998744,1.8603516};
 			angles[]={0,4.7115769,0};
 		};
 		side="Empty";
@@ -721,7 +721,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=843;
+		id=978;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -771,7 +771,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={2.0219727,1.6998744,8.8536987};
+			position[]={2.0705566,1.6998744,8.9135742};
 			angles[]={0,3.1405532,0};
 		};
 		side="Empty";
@@ -780,7 +780,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=844;
+		id=979;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -830,7 +830,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={6.0458984,1.6998744,8.8627319};
+			position[]={6.0944824,1.6998744,8.9228516};
 			angles[]={0,3.1405532,0};
 		};
 		side="Empty";
@@ -839,7 +839,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=845;
+		id=980;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -889,7 +889,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={8.7480469,1.7002764,8.6491089};
+			position[]={8.7966309,1.7002764,8.7089844};
 			angles[]={0,3.1465385,0};
 		};
 		side="Empty";
@@ -898,7 +898,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=846;
+		id=981;
 		type="Land_Mil_WallBig_Corner_F";
 		class CustomAttributes
 		{
@@ -948,7 +948,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-5.9780273,1.6998744,8.9157104};
+			position[]={-5.9294434,1.6998744,8.9755859};
 			angles[]={0,3.1405532,0};
 		};
 		side="Empty";
@@ -957,7 +957,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=847;
+		id=982;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -1007,7 +1007,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-1.9545898,1.6998744,8.9247437};
+			position[]={-1.9060059,1.6998744,8.9848633};
 			angles[]={0,3.1405532,0};
 		};
 		side="Empty";
@@ -1016,7 +1016,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=848;
+		id=983;
 		type="Land_Mil_WallBig_4m_F";
 		class CustomAttributes
 		{
@@ -1066,7 +1066,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-8.7861328,1.7002764,8.3463745};
+			position[]={-8.7375488,1.7002764,8.40625};
 			angles[]={0,1.4933488,0};
 		};
 		side="Empty";
@@ -1075,7 +1075,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=849;
+		id=984;
 		type="Land_Mil_WallBig_Corner_F";
 		class CustomAttributes
 		{
@@ -1125,7 +1125,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-4.7407227,0.97751284,-0.14923096};
+			position[]={-4.6921387,0.97751284,-0.089355469};
 			angles[]={0,4.7233982,0};
 		};
 		side="Empty";
@@ -1134,7 +1134,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=850;
+		id=985;
 		type="Land_Bunker_F";
 		class CustomAttributes
 		{
@@ -1184,7 +1184,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={4.8261719,0.97751284,-0.065490723};
+			position[]={4.8035889,0.97751284,-0.16064453};
 			angles[]={0,1.5593821,0};
 		};
 		side="Empty";
@@ -1193,7 +1193,7 @@ class items
 		{
 			disableSimulation=1;
 		};
-		id=851;
+		id=986;
 		type="Land_Bunker_F";
 		class CustomAttributes
 		{
@@ -1243,7 +1243,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-4.2089844,1.5833392,5.5990601};
+			position[]={-4.1604004,1.5833392,5.6591797};
 			angles[]={-0,4.7183657,0};
 		};
 		side="Empty";
@@ -1251,7 +1251,7 @@ class items
 		class Attributes
 		{
 		};
-		id=852;
+		id=987;
 		type="rhs_gaz66_ammo_vmf";
 		class CustomAttributes
 		{
@@ -1415,7 +1415,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={5.0883789,1.5833392,5.4559937};
+			position[]={5.1369629,1.5833392,5.5161133};
 			angles[]={-0,1.6356554,0};
 		};
 		side="Empty";
@@ -1423,7 +1423,7 @@ class items
 		class Attributes
 		{
 		};
-		id=855;
+		id=988;
 		type="rhs_gaz66_ammo_vmf";
 		class CustomAttributes
 		{
@@ -1594,8 +1594,8 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.578125,3.0341501,0.47351074};
-					angles[]={0,0,0.00084572798};
+					position[]={-6.5061035,3.033,0.10986328};
+					angles[]={0,3.173728,0.00084572798};
 				};
 				side="East";
 				flags=6;
@@ -1603,15 +1603,14 @@ class items
 				{
 					disableSimulation=1;
 				};
-				id=857;
+				id=990;
 				type="rhs_vdv_rifleman";
-				atlOffset=0.00023365021;
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1630,7 +1629,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1654,8 +1653,8 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.578125,3.0341501,0.47351074};
-					angles[]={0,0,0.00084572798};
+					position[]={-6.5061035,3.033,0.10986328};
+					angles[]={0,3.173728,0.00084572798};
 				};
 				side="East";
 				flags=4;
@@ -1663,15 +1662,14 @@ class items
 				{
 					disableSimulation=1;
 				};
-				id=858;
+				id=991;
 				type="rhs_vdv_sergeant";
-				atlOffset=0.00023365021;
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1690,7 +1688,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1714,7 +1712,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={2.8115234,0.0014390945,-2.5579224};
+					position[]={2.5267334,0.0014390945,-2.4599609};
 					angles[]={0,4.7309308,0};
 				};
 				side="East";
@@ -1722,8 +1720,78 @@ class items
 				class Attributes
 				{
 					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="rhs_weap_ak74m_dtk";
+							optics="rhs_acc_1p63";
+							muzzle="rhs_acc_dtk";
+							class primaryMuzzleMag
+							{
+								name="rhs_30Rnd_545x39_7N10_AK";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhs_uniform_vdv_mflora";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=2;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="rhs_6sh92";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=5;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="rhs_beret_vdv1";
+					};
 				};
-				id=854;
+				id=992;
 				type="rhs_vdv_mflora_rifleman_lite";
 				class CustomAttributes
 				{
@@ -1749,7 +1817,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1768,7 +1836,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1811,7 +1879,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.7529297,0.0014390945,-9.3552856};
+					position[]={-2.7043457,0.0014390945,-9.2954102};
 					angles[]={0,3.0562904,0};
 				};
 				side="East";
@@ -1819,8 +1887,78 @@ class items
 				class Attributes
 				{
 					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="rhs_weap_ak74m_dtk";
+							optics="rhs_acc_1p63";
+							muzzle="rhs_acc_dtk";
+							class primaryMuzzleMag
+							{
+								name="rhs_30Rnd_545x39_7N10_AK";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhs_uniform_vdv_mflora";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=2;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="rhs_6sh92";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=5;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="rhs_beret_vdv1";
+					};
 				};
-				id=861;
+				id=993;
 				type="rhs_vmf_flora_at";
 				class CustomAttributes
 				{
@@ -1846,7 +1984,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1865,7 +2003,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1908,7 +2046,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.3037109,0.0014390945,-9.4192505};
+					position[]={3.3522949,0.0014390945,-9.359375};
 					angles[]={0,3.2135351,0};
 				};
 				side="East";
@@ -1916,8 +2054,78 @@ class items
 				class Attributes
 				{
 					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="rhs_weap_ak74m_dtk";
+							optics="rhs_acc_1p63";
+							muzzle="rhs_acc_dtk";
+							class primaryMuzzleMag
+							{
+								name="rhs_30Rnd_545x39_7N10_AK";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhs_uniform_vdv_mflora";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=2;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="rhs_6sh92";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=5;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="rhs_beret_vdv1";
+					};
 				};
-				id=863;
+				id=994;
 				type="rhs_vmf_flora_grenadier_rpg";
 				class CustomAttributes
 				{
@@ -1943,7 +2151,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1962,7 +2170,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -2005,22 +2213,23 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4628906,3.0338678,0.65612793};
+					position[]={6.3613281,3.0332432,-0.15576172};
+					angles[]={0,0,6.2823396};
 				};
 				side="East";
+				flags=4;
 				class Attributes
 				{
 					disableSimulation=1;
 				};
-				id=865;
+				id=995;
 				type="rhs_vdv_rifleman";
-				atlOffset=3.0324287;
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -2039,7 +2248,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -2063,7 +2272,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={2.4360352,0.0014390945,2.819519};
+					position[]={2.4846191,0.0014390945,2.8793945};
 					angles[]={0,4.3071189,0};
 				};
 				side="East";
@@ -2071,8 +2280,78 @@ class items
 				class Attributes
 				{
 					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="rhs_weap_ak74m_dtk";
+							optics="rhs_acc_1p63";
+							muzzle="rhs_acc_dtk";
+							class primaryMuzzleMag
+							{
+								name="rhs_30Rnd_545x39_7N10_AK";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhs_uniform_vdv_mflora";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=2;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="rhs_6sh92";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=5;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="rhs_beret_vdv1";
+					};
 				};
-				id=868;
+				id=996;
 				type="rhs_vdv_mflora_rifleman";
 				class CustomAttributes
 				{
@@ -2098,7 +2377,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -2117,7 +2396,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -2160,7 +2439,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.484375,0.0014390945,3.1774292};
+					position[]={-2.435791,0.0014390945,3.2373047};
 					angles[]={0,1.6864389,0};
 				};
 				side="East";
@@ -2168,8 +2447,78 @@ class items
 				class Attributes
 				{
 					ignoreByDynSimulGrid=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="rhs_weap_ak74m_dtk";
+							optics="rhs_acc_1p63";
+							muzzle="rhs_acc_dtk";
+							class primaryMuzzleMag
+							{
+								name="rhs_30Rnd_545x39_7N10_AK";
+								ammoLeft=30;
+							};
+						};
+						class uniform
+						{
+							typeName="rhs_uniform_vdv_mflora";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=2;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="rhs_6sh92";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="rhs_30Rnd_545x39_7N10_AK";
+									count=5;
+									ammoLeft=30;
+								};
+								class Item1
+								{
+									name="rhs_mag_rgn";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="rhs_beret_vdv1";
+					};
 				};
-				id=870;
+				id=997;
 				type="rhs_vdv_mflora_rifleman";
 				class CustomAttributes
 				{
@@ -2195,7 +2544,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -2214,7 +2563,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -2269,8 +2618,8 @@ class items
 				class Item0
 				{
 					linkID=0;
-					item0=857;
-					item1=859;
+					item0=990;
+					item1=998;
 					class CustomData
 					{
 						role=2;
@@ -2280,8 +2629,8 @@ class items
 				class Item1
 				{
 					linkID=1;
-					item0=858;
-					item1=859;
+					item0=991;
+					item1=998;
 					class CustomData
 					{
 						role=2;
@@ -2291,8 +2640,8 @@ class items
 				class Item2
 				{
 					linkID=2;
-					item0=865;
-					item1=866;
+					item0=995;
+					item1=999;
 					class CustomData
 					{
 						role=2;
@@ -2301,25 +2650,23 @@ class items
 				};
 			};
 		};
-		id=856;
-		atlOffset=0.00023365021;
+		id=989;
 	};
 	class Item24
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-5.5800781,4.9464626,0.42327881};
-			angles[]={0,0,0.00084572798};
+			position[]={-6.5079346,4.9453125,0.059570313};
+			angles[]={0,3.173728,0.00084572798};
 		};
 		side="East";
-		flags=4;
+		flags=6;
 		class Attributes
 		{
 		};
-		id=859;
+		id=998;
 		type="RHS_ZU23_VDV";
-		atlOffset=0.00023365021;
 		class CustomAttributes
 		{
 			class Attribute0
@@ -2349,15 +2696,16 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={5.4643555,4.5899496,0.60614014};
+			position[]={6.362793,4.589325,-0.20556641};
+			angles[]={0,0,6.2823396};
 		};
 		side="East";
+		flags=4;
 		class Attributes
 		{
 		};
-		id=866;
+		id=999;
 		type="rhs_Igla_AA_pod_vdv";
-		atlOffset=3.0324287;
 		class CustomAttributes
 		{
 			class Attribute0

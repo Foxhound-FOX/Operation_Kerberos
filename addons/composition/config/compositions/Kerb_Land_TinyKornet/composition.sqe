@@ -1,5 +1,5 @@
 version=53;
-center[]={6443.4248,5,721.46893};
+center[]={1936.7188,5,6082.7949};
 class items
 {
 	items=1;
@@ -15,14 +15,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.033691406,0.52753258,0.013183594};
+					position[]={-0.16113281,0.52753258,-0.24414063};
 				};
 				side="East";
 				flags=6;
 				class Attributes
 				{
 				};
-				id=1291;
+				id=554;
 				type="rhs_Kornet_9M133_2_msv";
 			};
 			class Item1
@@ -37,14 +37,14 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={0.17285156,0.0014390945,0.14453125};
+							position[]={-0.022216797,0.0014390945,-0.52050781};
 						};
 						side="East";
 						flags=6;
 						class Attributes
 						{
 						};
-						id=1293;
+						id=556;
 						type="rhs_msv_rifleman";
 					};
 				};
@@ -63,8 +63,8 @@ class items
 						class Item0
 						{
 							linkID=0;
-							item0=1293;
-							item1=1291;
+							item0=556;
+							item1=554;
 							class CustomData
 							{
 								role=2;
@@ -73,14 +73,14 @@ class items
 						};
 					};
 				};
-				id=1292;
+				id=555;
 			};
 			class Item2
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.0742188,0.41931152,0.22631836};
+					position[]={-0.96557617,0.41931152,0.64013672};
 					angles[]={-0,2.2297802,0};
 				};
 				side="Empty";
@@ -89,7 +89,7 @@ class items
 				{
 					disableSimulation=1;
 				};
-				id=1294;
+				id=557;
 				type="Land_BagFence_Round_F";
 				class CustomAttributes
 				{
@@ -139,7 +139,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.90087891,0.41931152,0.086669922};
+					position[]={1.0095215,0.41931152,0.50048828};
 					angles[]={-0,4.1798849,0};
 				};
 				side="Empty";
@@ -148,7 +148,7 @@ class items
 				{
 					disableSimulation=1;
 				};
-				id=1295;
+				id=558;
 				type="Land_BagFence_Round_F";
 				class CustomAttributes
 				{
@@ -194,6 +194,6 @@ class items
 				};
 			};
 		};
-		id=1290;
+		id=553;
 	};
 };

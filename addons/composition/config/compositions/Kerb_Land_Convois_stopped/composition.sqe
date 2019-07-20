@@ -1,5 +1,5 @@
 version=53;
-center[]={6450.1719,5,720.1568};
+center[]={1903.985,5,6072.3994};
 class items
 {
 	items=8;
@@ -15,7 +15,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-3.8652344,0.28867102,-0.94989014};
+					position[]={-3.8621826,0.28867102,-1.1796875};
 				};
 				side="East";
 				flags=2;
@@ -23,7 +23,7 @@ class items
 				{
 					disableSimulation=1;
 				};
-				id=1003;
+				id=158;
 				type="rhs_vdv_driver";
 				atlOffset=0.28723192;
 				class CustomAttributes
@@ -31,7 +31,7 @@ class items
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -50,7 +50,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -74,7 +74,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-7.0327148,0.0015487671,-1.8873291};
+					position[]={-7.0296631,0.0015487671,-2.1166992};
 				};
 				side="East";
 				flags=5;
@@ -82,7 +82,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1004;
+				id=159;
 				type="rhs_vmf_flora_aa";
 				atlOffset=0.00010967255;
 				class CustomAttributes
@@ -109,7 +109,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -128,7 +128,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -183,8 +183,8 @@ class items
 				class Item0
 				{
 					linkID=0;
-					item0=1003;
-					item1=1005;
+					item0=158;
+					item1=160;
 					class CustomData
 					{
 						role=1;
@@ -192,7 +192,7 @@ class items
 				};
 			};
 		};
-		id=1002;
+		id=157;
 		atlOffset=0.28723192;
 	};
 	class Item1
@@ -200,14 +200,14 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-3.8652344,2.1973085,-0.99987793};
+			position[]={-3.8621826,2.1973085,-1.2294922};
 		};
 		side="East";
 		flags=2;
 		class Attributes
 		{
 		};
-		id=1005;
+		id=160;
 		type="RHS_Ural_Open_Flat_VDV_01";
 		atlOffset=0.28723192;
 		class CustomAttributes
@@ -360,7 +360,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.59082031,0.0014390945,-9.9926147};
+					position[]={-0.58776855,0.0014390945,-10.222168};
 					angles[]={-0,5.6990747,0};
 				};
 				side="East";
@@ -368,14 +368,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1007;
+				id=162;
 				type="rhs_vdv_driver";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -394,7 +394,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -418,7 +418,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.59082031,0.0014390945,-9.9926147};
+					position[]={-0.58776855,0.0014390945,-10.222168};
 					angles[]={-0,5.6990747,0};
 				};
 				side="East";
@@ -426,14 +426,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1008;
+				id=163;
 				type="rhs_msv_rifleman";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -452,7 +452,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -476,7 +476,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.59082031,0.0014390945,-9.9926147};
+					position[]={-0.58776855,0.0014390945,-10.222168};
 					angles[]={-0,5.6990747,0};
 				};
 				side="East";
@@ -484,14 +484,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1009;
+				id=164;
 				type="rhs_msv_sergeant";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -510,7 +510,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -534,7 +534,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-3.4394531,0.0015087128,-11.628296};
+					position[]={-3.4364014,0.0015087128,-11.85791};
 				};
 				side="East";
 				flags=5;
@@ -542,7 +542,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1010;
+				id=165;
 				type="rhs_vmf_flora_aa";
 				atlOffset=6.9618225e-005;
 				class CustomAttributes
@@ -569,7 +569,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -588,7 +588,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -631,7 +631,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.484375,0.0015306473,-6.477417};
+					position[]={4.4874268,0.0015306473,-6.7070313};
 					angles[]={0,2.7588985,0};
 				};
 				side="East";
@@ -640,7 +640,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1011;
+				id=166;
 				type="rhs_vmf_flora_at";
 				atlOffset=9.1552734e-005;
 				class CustomAttributes
@@ -667,7 +667,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -686,7 +686,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -742,8 +742,8 @@ class items
 				class Item0
 				{
 					linkID=0;
-					item0=1007;
-					item1=1012;
+					item0=162;
+					item1=167;
 					class CustomData
 					{
 						role=1;
@@ -752,8 +752,8 @@ class items
 				class Item1
 				{
 					linkID=1;
-					item0=1008;
-					item1=1012;
+					item0=163;
+					item1=167;
 					class CustomData
 					{
 						role=2;
@@ -763,8 +763,8 @@ class items
 				class Item2
 				{
 					linkID=2;
-					item0=1009;
-					item1=1012;
+					item0=164;
+					item1=167;
 					class CustomData
 					{
 						role=2;
@@ -773,14 +773,14 @@ class items
 				};
 			};
 		};
-		id=1006;
+		id=161;
 	};
 	class Item3
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-0.59082031,1.8763156,-10.042603};
+			position[]={-0.58776855,1.8763156,-10.271973};
 			angles[]={-0,5.6990747,0};
 		};
 		side="East";
@@ -788,7 +788,7 @@ class items
 		class Attributes
 		{
 		};
-		id=1012;
+		id=167;
 		type="RHS_Ural_Zu23_VDV_01";
 		class CustomAttributes
 		{
@@ -934,13 +934,13 @@ class items
 		side="East";
 		class Entities
 		{
-			items=13;
+			items=14;
 			class Item0
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.0834961,0.0014390945,7.5359497};
+					position[]={-2.3421631,0.0014390945,9.355957};
 					angles[]={-0,0.36119637,0};
 				};
 				side="East";
@@ -948,14 +948,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1014;
+				id=169;
 				type="rhs_vdv_driver";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -974,7 +974,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -998,7 +998,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.0834961,0.0014390945,7.5359497};
+					position[]={-2.3421631,0.0014390945,9.355957};
 					angles[]={-0,0.36119637,0};
 				};
 				side="East";
@@ -1006,14 +1006,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1015;
+				id=170;
 				type="rhs_msv_rifleman";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1032,7 +1032,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1056,7 +1056,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.0834961,0.0014390945,7.5359497};
+					position[]={-2.3421631,0.0014390945,9.355957};
 					angles[]={-0,0.36119637,0};
 				};
 				side="East";
@@ -1064,14 +1064,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1016;
+				id=171;
 				type="rhs_msv_sergeant";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1090,7 +1090,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1114,7 +1114,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.6606445,0.0015602112,6.569458};
+					position[]={-5.6575928,0.0015602112,6.3398438};
 				};
 				side="East";
 				flags=5;
@@ -1122,7 +1122,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1017;
+				id=172;
 				type="rhs_vmf_flora_at";
 				atlOffset=0.00012111664;
 				class CustomAttributes
@@ -1149,7 +1149,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1168,7 +1168,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1211,7 +1211,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={2.7885742,0.0015106201,9.6363525};
+					position[]={2.791626,0.0015106201,9.4067383};
 				};
 				side="East";
 				flags=5;
@@ -1219,7 +1219,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1018;
+				id=173;
 				type="rhs_vmf_flora_engineer";
 				atlOffset=7.1525574e-005;
 				class CustomAttributes
@@ -1246,7 +1246,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1265,7 +1265,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1308,7 +1308,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.0302734,0.0014982224,8.00354};
+					position[]={1.0333252,0.0014982224,7.7739258};
 				};
 				side="East";
 				flags=5;
@@ -1316,7 +1316,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1019;
+				id=174;
 				type="rhs_vmf_flora_efreitor";
 				atlOffset=5.9127808e-005;
 				class CustomAttributes
@@ -1343,7 +1343,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1362,7 +1362,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1405,7 +1405,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.8178711,0.0015563965,2.2874756};
+					position[]={3.8209229,0.0015563965,2.0581055};
 				};
 				side="East";
 				flags=5;
@@ -1413,7 +1413,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1020;
+				id=175;
 				type="rhs_vmf_flora_sergeant";
 				atlOffset=0.00011730194;
 				class CustomAttributes
@@ -1440,7 +1440,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1459,7 +1459,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1502,7 +1502,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={8.7788086,0.0014390945,-0.26116943};
+					position[]={8.7818604,0.0014390945,-0.49072266};
 					angles[]={-0,0.81133664,0};
 				};
 				side="East";
@@ -1510,14 +1510,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1021;
+				id=176;
 				type="rhs_vmf_flora_driver_armored";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1536,7 +1536,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1560,7 +1560,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={8.7788086,0.0014390945,-0.26116943};
+					position[]={8.7818604,0.0014390945,-0.49072266};
 					angles[]={-0,0.81133664,0};
 				};
 				side="East";
@@ -1568,14 +1568,14 @@ class items
 				class Attributes
 				{
 				};
-				id=1022;
+				id=177;
 				type="rhs_vmf_flora_grenadier";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1594,7 +1594,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1618,21 +1618,21 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.7866211,0.0014390945,7.5281372};
+					position[]={7.7896729,0.0014390945,7.2983398};
 				};
 				side="East";
 				flags=4;
 				class Attributes
 				{
 				};
-				id=1023;
+				id=178;
 				type="rhs_vmf_flora_driver_armored";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1651,7 +1651,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1675,21 +1675,21 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.7866211,0.0014390945,7.5281372};
+					position[]={7.7896729,0.0014390945,7.2983398};
 				};
 				side="East";
 				flags=4;
 				class Attributes
 				{
 				};
-				id=1024;
+				id=179;
 				type="rhs_vmf_flora_grenadier";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1708,7 +1708,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1732,7 +1732,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-1.0166016,0.0014390945,-2.46521};
+					position[]={-1.0135498,0.0014390945,-2.6948242};
 				};
 				side="East";
 				flags=5;
@@ -1740,7 +1740,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1025;
+				id=180;
 				type="rhs_vdv_mflora_efreitor";
 				class CustomAttributes
 				{
@@ -1766,7 +1766,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1785,7 +1785,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1828,7 +1828,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5332031,0.0014390945,-3.6429443};
+					position[]={1.5362549,0.0014390945,-3.8725586};
 					angles[]={0,3.1122532,0};
 				};
 				side="East";
@@ -1837,7 +1837,7 @@ class items
 				{
 					ignoreByDynSimulGrid=1;
 				};
-				id=1026;
+				id=181;
 				type="rhs_vdv_mflora_grenadier_rpg";
 				class CustomAttributes
 				{
@@ -1863,7 +1863,7 @@ class items
 					class Attribute1
 					{
 						property="ace_isHandcuffed";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
 						class Value
 						{
 							class data
@@ -1882,7 +1882,7 @@ class items
 					class Attribute2
 					{
 						property="ace_isSurrendered";
-						expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+						expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
 						class Value
 						{
 							class data
@@ -1920,6 +1920,22 @@ class items
 					nAttributes=4;
 				};
 			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.47729492,0.0014390945,-0.15136719};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					isPlayer=1;
+				};
+				id=185;
+				type="rhs_vdv_mflora_marksman";
+			};
 		};
 		class Attributes
 		{
@@ -1938,8 +1954,8 @@ class items
 				class Item0
 				{
 					linkID=0;
-					item0=1014;
-					item1=1027;
+					item0=169;
+					item1=182;
 					class CustomData
 					{
 						role=1;
@@ -1948,8 +1964,8 @@ class items
 				class Item1
 				{
 					linkID=1;
-					item0=1015;
-					item1=1027;
+					item0=170;
+					item1=182;
 					class CustomData
 					{
 						role=2;
@@ -1959,8 +1975,8 @@ class items
 				class Item2
 				{
 					linkID=2;
-					item0=1016;
-					item1=1027;
+					item0=171;
+					item1=182;
 					class CustomData
 					{
 						role=2;
@@ -1970,8 +1986,8 @@ class items
 				class Item3
 				{
 					linkID=3;
-					item0=1021;
-					item1=1028;
+					item0=176;
+					item1=183;
 					class CustomData
 					{
 						role=1;
@@ -1980,8 +1996,8 @@ class items
 				class Item4
 				{
 					linkID=4;
-					item0=1022;
-					item1=1028;
+					item0=177;
+					item1=183;
 					class CustomData
 					{
 						role=2;
@@ -1991,8 +2007,8 @@ class items
 				class Item5
 				{
 					linkID=5;
-					item0=1023;
-					item1=1029;
+					item0=178;
+					item1=184;
 					class CustomData
 					{
 						role=1;
@@ -2001,8 +2017,8 @@ class items
 				class Item6
 				{
 					linkID=6;
-					item0=1024;
-					item1=1029;
+					item0=179;
+					item1=184;
 					class CustomData
 					{
 						role=2;
@@ -2011,14 +2027,14 @@ class items
 				};
 			};
 		};
-		id=1013;
+		id=168;
 	};
 	class Item5
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-2.0834961,1.8763156,7.4859619};
+			position[]={-2.3421631,1.8763156,9.3061523};
 			angles[]={-0,0.36119637,0};
 		};
 		side="East";
@@ -2026,7 +2042,7 @@ class items
 		class Attributes
 		{
 		};
-		id=1027;
+		id=182;
 		type="RHS_Ural_Zu23_VDV_01";
 		class CustomAttributes
 		{
@@ -2171,7 +2187,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={8.7788086,2.2464857,-0.31115723};
+			position[]={8.7818604,2.1942148,-0.54052734};
 			angles[]={-0,0.81133664,0};
 		};
 		side="East";
@@ -2179,7 +2195,7 @@ class items
 		class Attributes
 		{
 		};
-		id=1028;
+		id=183;
 		type="rhs_tigr_sts_vmf";
 		class CustomAttributes
 		{
@@ -2324,14 +2340,14 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={7.7866211,2.2464857,7.4781494};
+			position[]={7.7896729,2.1942148,7.2485352};
 		};
 		side="East";
 		flags=4;
 		class Attributes
 		{
 		};
-		id=1029;
+		id=184;
 		type="rhs_tigr_sts_vmf";
 		class CustomAttributes
 		{
